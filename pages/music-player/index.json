@@ -1,0 +1,9 @@
+{
+  "navigationBarTextStyle": "white",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "nav-bar": "/baseui/nav-bar/index",
+    "van-popup": "@vant/weapp/popup/index",
+    "song-item-v3":"/componets/song-item-v3/index"
+  }
+}

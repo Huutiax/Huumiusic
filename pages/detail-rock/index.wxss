@@ -1,0 +1,12 @@
+/* pages/detail-menu/index.wxss */
+page {
+	padding: 0 20rpx;
+  
+	background-color: #fff;
+  }
+  .menu-item {
+	display: inline-block;
+	width: 170px;
+	height: 208px;
+	margin-right: 7px;
+  }

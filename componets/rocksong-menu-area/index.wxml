@@ -1,0 +1,9 @@
+<!--componets/song-menu-area/index.wxml-->
+<area-header title="{{title}}" bind:click="handlerockMenuClick"></area-header>
+<scroll-view scroll-x class="menu-list">
+  <block wx:for="{{songMenu}}" wx:key="id">   
+    <view class="menu-item">
+      <song-menu-item1 item="{{item}}" bindtap="handleMenuItemClick" data-item="{{item}}"></song-menu-item1>
+    </view>
+  </block>
+</scroll-view>

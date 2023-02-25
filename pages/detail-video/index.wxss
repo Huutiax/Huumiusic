@@ -1,0 +1,32 @@
+/* pages/detail-video/index.wxss */
+page {
+  padding-top: 225px;
+}
+.video {
+  position: fixed;
+  width: 100%;
+  top:0;
+  z-index:99999
+}
+.videoData {
+  padding: 30rpx;
+}
+.videoData .videoName {
+  font-size: 20px;
+  font-weight:1000
+}
+.videoData .videoArtistName {
+  padding-top: 5px;
+  font-size: 11px;
+  opacity:0.6
+}
+.videoData .videoTime {
+  padding-top: 5px;
+  font-size: 11px;
+  opacity:0.6
+
+}
+/* 相关视频 */
+.recommend {
+  padding: 30rpx;
+}
